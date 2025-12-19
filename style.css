@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    font-family: Geomanist, Helvetica, sans-serif;
+     font-weight: bold;
+    font-size: 1rem;
+    color: #002f34;
+    border-bottom: 1px solid rgb(216, 203, 203);
+    position: sticky;
+    top: 0;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EBF1FF;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.olx img{
+    width: 4rem;
+    height: 3.5rem;
+}
+.motor img{
+    width: 3rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+.property img{
+    width: 3rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+.olx{
+    background-color: white;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.logos1{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+}
+.log a{
+    font-weight: bold;
+    font-size: 1rem;
+    color: #002f34;
+}
+.log a:hover{
+    text-decoration: none;
+}
+.sale button{
+    padding: 0.7rem 1.5rem;
+    border-radius: 2rem;
+    border-bottom: rgb(51, 132, 207);
+    border-left: yellow;
+    border-top: #002f34;
+    border-right: aqua;
+    border-style: solid;
+    border-width: 4px;
+    color: #002f34;
+    font-size: 1rem;
+    font-family: Geomanist, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.search input{
+    padding: 0.9rem 6rem;
+    border: none;
+    padding-left: 1rem;
+}
+.location{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.search2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drop img{
+    width: 2rem;
+    height: 1rem;
+}
+.search1 input{
+    padding: 0.9rem 5rem;
+    border: none;
+    margin-right: 31rem;
+}
+.search2{
+    border-radius: 0.4rem;
+    border: 1px solid black;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* padding-left: 28rem */
+}
+.searlogo button{
+    padding: 0.8rem 1rem;
+    border: none;
+    background-color: #30818a;
+    color: white;
+    font-size: 1.2rem;
+    font-family: Geomanist, Helvetica, sans-serif;
+}
+.searlogo img{
+    width: 1.5rem;
+    height: rem;
+    padding-left: 0.3rem;
+}
+.searlogo{
+    align-items: center;
+    background-color: #30818a;
+}
+.search1 input:focus{
+    outline: none;
+}
+.search input:focus{
+    outline: none;
+}
+.searlogo button:hover{
+    cursor: pointer;
+}
+.main{
+    width: 95%;
+    margin: 0px auto;
+}
+.menu{
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    margin-top: 1rem;
+}
+.lists ul{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.lists ul li{
+    gap: 4rem;
+    margin-left: 1.2rem;
+    list-style: none;
+    color: #002f34;
+}
+.allcategory h2{
+    font-size: 0.99rem;
+}
+.lists ul li:hover {
+    color: #3A77FF;
+    cursor: pointer;
+}
+.image1 img{
+    width: 1rem;
+    height: 2rem;
+    padding-bottom: 0.7rem;
+}
+.image1{
+    align-items: center;
+}
+.currency{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    height: 12rem;
+    border-radius: 0.4rem;
+}
+.mon{
+    display: flex;
+    margin-top: 0.6rem;
+}
+.ria img{
+    margin-left: 1rem;
+    height: 2rem;
+    width: 4.5rem;
+}
+.currency{
+    background-color: rgb(255, 187, 0);
+    align-items: center;
+}
+.links img{
+    width: 11rem;
+    height: 4rem;
+}
+.western img{
+    width: 10rem;
+    height: 9erm;
+}
+.moneygram img{
+    width: 4.5rem;
+    height: 2rem;
+}
+.items1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    gap: 2em;
+}
+.Mobiles img{
+    width: 5rem;
+}
+.Mobiles p{
+    text-align: center;
+}
+.items2{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    gap: 4rem;
+    margin-left: 1.5rem;
+}
+.books img{
+    width: 5rem;
+}
+.books p{
+    text-align: center;
+}
+.mobile1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    margin-top: 2rem;
+}
+.heading h1{
+    color: #002f34;
+    font-size: 1.6rem;
+}
+.buttons button{
+    font-family: Helvetica, sans-serif;
+    padding:0.91rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    color: #3A77FF;
+    background-color: white;
+}
+.buttons button:hover{
+    cursor: pointer;
+}
+.MobilePhones{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.image2 img{
+    width: 100%;
+    height: 50%;
+}
+.iphone14{
+    border: 1px solid rgb(216, 203, 203);
+    font-family: Helvetica, sans-serif;
+    color: #002f34;
+}
+.iphone14 p{
+    margin-left: 1rem;
+}
+.price p{
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+.model p{
+    margin-top: 1rem;
+    opacity: 90%;
+}
+.location1 p{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    opacity: 70%;
+}
+.day p{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    opacity: 70%;
+    margin-bottom: 1rem;
+}
+.about p{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.landcruiser img{
+     height: 420px;
+     width: 260px;
+     font-weight: bold;
+     font-size: 0.9rem;
+     margin-top: 1rem;
+}
+.landcruiser{
+    font-family: Helvetica, sans-serif;
+    border: 1px solid rgb(216, 203, 203);
+    color: #002f34;
+}
+.alto{
+    font-family: Helvetica, sans-serif;
+    border: 1px solid rgb(216, 203, 203);
+    color: #002f34;
+}
+.alto img{
+    height: 420px;
+    width: 320px;
+}
+.alto p{
+    margin-left: 1rem;
+}
+.landcruiser p{
+    margin-left: 1rem;
+}
+.model1 p{
+    margin-top: 0.5rem;
+    font-size: 0.99rem;
+    opacity: 85%;
+}
+.location2 p{
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+    opacity: 70%;
+}
+.about1 p{
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    opacity: 80%;
+}
+.image3 img{
+    height: 28em;
+    width: 100%;
+}
+.image4 img{
+    height: 27.5em;
+    width: 19rem;
+}
+.image5 img{
+    width: 100%;
+    height: 25em;
+}
+.model2 p{
+    margin-top: 0.9rem;
+}
+.image6 img{
+    width: 19.5em;
+    height: 27em;
+}
+.image7 img{
+    width: 20em;
+    height: 19em;
+}
+.image8 img{
+    width: 20em;
+    height: 18.4em;
+}
+.model3 p{
+    font-weight: bold;
+    margin-top: 0.7em
+}
+.lower{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f3f5;
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    border-bottom: 1px solid rgb(216, 203, 203);
+}
+.appstore img{
+    width: 8rem;
+    height: 12rem;
+}
+.AGP{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.8em; 
+}
+.playstore img{
+    width: 8rem;
+    height: 12rem;
+}
+.Appgallery img{
+    width: 8rem;
+    height: 12rem;
+}
+.app img{
+    width: 12rem;
+    height: 10rem;
+}
+.app{
+    margin-top: 1.9rem;
+}
+.texte{
+    margin-right: 1rem;
+}
+.find h1{
+    font-size: 24px;
+    color: #002f34;
+    font-weight: bold;
+}
+.download h1{
+    font-size: 25px;
+    color: #3A77FF;
+    font-weight: bold;
+}
+.download{
+    margin-top: 0.7em;
+}
+.playstore img:hover{
+    cursor: pointer;
+}
+.Appgallery img:hover{
+    cursor: pointer;
+}
+.appstore img:hover{
+    cursor: pointer;
+}
+.foot footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    padding: 3rem 0rem;
+    background-color: ;
+}
+.foot1 h1{
+    font-size: 1em;
+    color: #002f34;
+}
+.foot1 ul li{
+    list-style: none;
+    margin-top: 1rem;
+    color: #002f34;
+}
+.foot3 h1{
+    font-size: 1em;
+    color: #002f34;
+    margin-bottom: 1rem;
+}
+.foot2{
+    display: flex;
+    gap: 0.7em;
+    align-items: center;
+}
+.foot4 h1{
+    font-size: 1em;
+    color: #002f34;
+}
+.foot4 ul li{
+    list-style: none;
+    color: #002f34;
+    margin-top: 1.6rem;
+}
+.aa{
+    padding: 1.2rem 2rem;
+    background-color: #002f34;
+    /* display: flex; */
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+}
+.aa p{
+    text-align: right;
+    color: white;
+}
+.classified{
+    font-weight: bold;
+}
+.foot footer ul li:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+.foot2 img:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+.regard p{
+    text-align: center;
+}
